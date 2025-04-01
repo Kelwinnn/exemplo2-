@@ -68,7 +68,7 @@
 // let info = "Processamento de ponta";
 // console.log(info.slice(0,13));
 
-// OPERADORES ARITIMETICOS 
+// OPERADORES ARITMETICOS 
 const num1 = 10;
 const num2 = 20;
 
