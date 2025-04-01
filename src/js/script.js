@@ -23,3 +23,18 @@ let exemplo1={};
 
 //Objeto array
 let exemplo2=[];
+
+// TIPO VARIAVEIS
+let exemplo3 = 10;
+console.log(typeof exemplo3); //NUMERO
+
+let exemplo4 = "Aula";
+console.log(typeof exemplo4); //STRING
+
+let exemplo5 = true;
+console.log(typeof exemplo5); //BOOLEAN
+
+let exemplo6 = ["huguinho", "zezeinho", "luizinho"];
+console.log(typeof exemplo6); //OBJETO
+
+// CONVERSÕES
