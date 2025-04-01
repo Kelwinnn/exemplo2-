@@ -38,3 +38,19 @@ let exemplo6 = ["huguinho", "zezeinho", "luizinho"];
 console.log(typeof exemplo6); //OBJETO
 
 // CONVERSÕES
+
+// FLOAT => INTEIRO 
+let numFloat = 123.456;
+console.log(parseInt (numFloat));
+
+// STRING => FLOAT 
+let numString = "547.987";
+console.log(parseFloat(numString));
+
+// FLOAT => STRING 
+let numFloat1 = 554.665;
+console.log(numFloat1.toString());
+
+let numInt=100;
+console.log(numInt.toString())
+
