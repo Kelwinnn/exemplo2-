@@ -69,20 +69,71 @@
 // console.log(info.slice(0,13));
 
 // OPERADORES ARITMETICOS 
-const num1 = 10;
-const num2 = 20;
+// const num1 = 10;
+// const num2 = 20;
 
-console.log(num1 + num2); //SOMA
-console.log(num1 - num2); //SUBTRAÇÃO
-console.log(num1 * num2); //MULTIPLICAÇÃO
-console.log(num1 / num2); //DIVISÃO
+// console.log(num1 + num2); //SOMA
+// console.log(num1 - num2); //SUBTRAÇÃO
+// console.log(num1 * num2); //MULTIPLICAÇÃO
+// console.log(num1 / num2); //DIVISÃO
 
-// OPERADORES LOGICOS 
-const num3 = 20;
-const num4 = 30;
+// // OPERADORES LOGICOS 
+// const num3 = 20;
+// const num4 = 30;
 
-console.log(num3 > num4); //MAIOR
-console.log(num3 < num4); //MENOR
-console.log(num3 > num4 && num4 < 50); //OPERADOR "AND" 
-console.log(num3 > num4 || num4 > num3); //OPERADOR "OU"
-console.log(num3 == num4 || num4 <= num3);
+// console.log(num3 > num4); //MAIOR
+// console.log(num3 < num4); //MENOR
+// console.log(num3 > num4 && num4 < 50); //OPERADOR "AND" 
+// console.log(num3 > num4 || num4 > num3); //OPERADOR "OU"
+// console.log(num3 == num4 || num4 <= num3);
+
+// OPERADORES DE COMPAÇÃO 
+// const num5 = 25;
+// const num6 = 35;
+
+// console.log(num5 == num6); //Compara 
+// console.log(num5 === num6); //Compara e verifica o tipo da variavel
+// console.log(num5 != num6); //Diferente
+
+
+// ESTRUTURA CONDICIONAL
+
+//IF
+
+let valor = 100;
+
+if(valor == 101){
+    console.log("É verdadeiro!");
+}
+
+// IF / ELSE
+
+let valor1 = 100;
+
+if(valor1 == 100){
+    console.log("Valor Correto");
+} else {
+    console.log("Valor Errado");
+}
+
+
+//IF /ELSE - encadeado ou aninhado
+
+// let idade = 13;
+
+// if(idade < 14 ){
+//     console.log("Não pode entrar na balada!");
+// } 
+// else if(idade >= 14 && idade < 18){
+//     console.log("Pode entrar na balada!");
+// }
+// else{
+//     console.log("Não pode entrar na balada!")
+// }
+
+// CONDIÇÃO TERNARIO
+
+let valor2 = 300;
+
+let resultado = valor2 == 300? "Certo" : "Errado";
+console.log(resultado)
