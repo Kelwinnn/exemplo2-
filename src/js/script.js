@@ -100,21 +100,21 @@
 
 //IF
 
-let valor = 100;
+// let valor = 100;
 
-if(valor == 101){
-    console.log("É verdadeiro!");
-}
+// if(valor == 101){
+//     console.log("É verdadeiro!");
+// }
 
-// IF / ELSE
+// // IF / ELSE
 
-let valor1 = 100;
+// let valor1 = 100;
 
-if(valor1 == 100){
-    console.log("Valor Correto");
-} else {
-    console.log("Valor Errado");
-}
+// if(valor1 == 100){
+//     console.log("Valor Correto");
+// } else {
+//     console.log("Valor Errado");
+// }
 
 
 //IF /ELSE - encadeado ou aninhado
@@ -164,18 +164,34 @@ if(valor1 == 100){
 
 // WHILE
 
-let w = 0;
+// let w = 0;
 
-while(w <= 10){
-    console.log("O valor de W é ",w);
-    w++
-}
+// while(w <= 10){
+//     console.log("O valor de W é ",w);
+//     w++
+// }
 
-//DO WHILE
+// //DO WHILE
 
-let z = 10;
+// let z = 10;
 
-do{
-    console.log("Do while é:", z);
-    z++;
-}while(z < 100);
+// do{
+//     console.log("Do while é:", z);
+//     z++;
+// }while(z < 100);
+
+
+
+// function saudacao(nome){
+//     //console.log("Seja Bem-vindo ", nome)
+//     console.log(`Seja bem vindo ${nome}`) //STRINGS LITERAIS;
+// }
+
+// saudacao("FIAP");
+
+// function semaforo(){
+//     let sinal = "amarelo";
+//     console.log(`O semaforo está ${sinal}`);
+// }
+
+// semaforo();
