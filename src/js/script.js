@@ -133,7 +133,49 @@ if(valor1 == 100){
 
 // CONDIÇÃO TERNARIO
 
-let valor2 = 300;
+// let valor2 = 300;
 
-let resultado = valor2 == 300? "Certo" : "Errado";
-console.log(resultado)
+// let resultado = valor2 == 300? "Certo" : "Errado";
+// console.log(resultado)
+
+//SWITCH CASE
+
+// let time = "São Paulo";
+
+// switch(time){
+//     case "São Paulo":
+//         console.log("Melhor Time");
+//         break;
+//     case "Corinthians ":
+//         console.log("Menor do Brasil");
+//         break;
+//     case "Palmeiras":
+//         console.log("Já sabe que não tem MUNDIAL");
+//         break;
+//     default:
+//         console.log("Nenhuma das opções");
+// }
+
+// ESTRUTURA DE LAÇO DE REPETIÇÃO 
+
+// for(let i = 0; i < 10; i++){
+//     console.log("O valor de I é:", i);
+// }
+
+// WHILE
+
+let w = 0;
+
+while(w <= 10){
+    console.log("O valor de W é ",w);
+    w++
+}
+
+//DO WHILE
+
+let z = 10;
+
+do{
+    console.log("Do while é:", z);
+    z++;
+}while(z < 100);
